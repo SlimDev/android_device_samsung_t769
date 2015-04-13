@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
 
 # Media
 # WARNING: OVERRIDES VERSION FOUND IN msm8660-common
-PRODUCT_COPY_FILES += \
-    device/samsung/t769/configs/media_profiles.xml:system/etc/media_profiles.xml \
+#PRODUCT_COPY_FILES += \
+#    device/samsung/t769/configs/media_profiles.xml:system/etc/media_profiles.xml \
 
 # Inherit from celox-common
 $(call inherit-product, device/samsung/celox-common/celox-common.mk)
